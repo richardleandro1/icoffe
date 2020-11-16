@@ -1,6 +1,6 @@
-# Projeto loja virtual feito com swiftUI
+# Online store design made with swiftUI
 
 :warning:
-in construction :construction_worker: 
+Under construction :construction_worker: 
 
 ![alt](git.gif)
