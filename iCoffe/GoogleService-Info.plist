@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>186946839368-rkk026d4bnj7iuaulkim2s3qdeucl728.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.186946839368-rkk026d4bnj7iuaulkim2s3qdeucl728</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBiPU6yo8vTfTrREYmv0U_IjORHqbAfQ4I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>186946839368</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.richard.vnbs.iCoffe</string>
+	<key>PROJECT_ID</key>
+	<string>meucafe-a2f4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meucafe-a2f4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:186946839368:ios:0e5d2b18f9c01b9f13c97d</string>
+	<key>DATABASE_URL</key>
+	<string>https://meucafe-a2f4d.firebaseio.com</string>
+</dict>
+</plist>

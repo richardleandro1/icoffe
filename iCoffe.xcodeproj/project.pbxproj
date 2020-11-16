@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45670023DDCEB2361E07D3DE /* Pods_iCoffe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E4282A1FC454B67AA92F8 /* Pods_iCoffe.framework */; };
 		9D0BBD2F2561AAB90098506B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD2E2561AAB90098506B /* AppDelegate.swift */; };
 		9D0BBD312561AAB90098506B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD302561AAB90098506B /* SceneDelegate.swift */; };
-		9D0BBD332561AAB90098506B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD322561AAB90098506B /* ContentView.swift */; };
+		9D0BBD332561AAB90098506B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD322561AAB90098506B /* HomeView.swift */; };
 		9D0BBD352561AABC0098506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BBD342561AABC0098506B /* Assets.xcassets */; };
 		9D0BBD382561AABC0098506B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BBD372561AABC0098506B /* Preview Assets.xcassets */; };
 		9D0BBD3B2561AABC0098506B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BBD392561AABC0098506B /* LaunchScreen.storyboard */; };
+		9D0BBD442561AB8D0098506B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D0BBD432561AB8D0098506B /* GoogleService-Info.plist */; };
+		9D0BBD5D2561B1A30098506B /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD5C2561B1A30098506B /* Drink.swift */; };
+		9D0BBD8A2561B59D0098506B /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD892561B59D0098506B /* FirebaseReference.swift */; };
+		9D0BBD8D2561B77F0098506B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0BBD8C2561B77F0098506B /* Constants.swift */; };
+		9D367AE7256227900045553F /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D367AE6256227900045553F /* DrinkRow.swift */; };
+		9D367AEA25622A440045553F /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D367AE925622A440045553F /* DrinkItem.swift */; };
+		9D367AF32562ADFD0045553F /* DrinkListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D367AF22562ADFD0045553F /* DrinkListener.swift */; };
+		9D367B0C2562DA9D0045553F /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D367B0B2562DA9D0045553F /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B4420A837B7E1272A62BFA8 /* Pods-iCoffe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffe.release.xcconfig"; path = "Target Support Files/Pods-iCoffe/Pods-iCoffe.release.xcconfig"; sourceTree = "<group>"; };
 		9D0BBD2B2561AAB90098506B /* iCoffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0BBD2E2561AAB90098506B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D0BBD302561AAB90098506B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D0BBD322561AAB90098506B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D0BBD322561AAB90098506B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9D0BBD342561AABC0098506B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0BBD372561AABC0098506B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D0BBD3A2561AABC0098506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0BBD3C2561AABC0098506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0BBD432561AB8D0098506B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D0BBD5C2561B1A30098506B /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		9D0BBD892561B59D0098506B /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		9D0BBD8C2561B77F0098506B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9D367AE6256227900045553F /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		9D367AE925622A440045553F /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		9D367AF22562ADFD0045553F /* DrinkListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListener.swift; sourceTree = "<group>"; };
+		9D367B0B2562DA9D0045553F /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		DF67B23B5F2C34CEC3DE70FE /* Pods-iCoffe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffe.debug.xcconfig"; path = "Target Support Files/Pods-iCoffe/Pods-iCoffe.debug.xcconfig"; sourceTree = "<group>"; };
+		F87E4282A1FC454B67AA92F8 /* Pods_iCoffe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45670023DDCEB2361E07D3DE /* Pods_iCoffe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18320ADB62484B1491DBC4F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF67B23B5F2C34CEC3DE70FE /* Pods-iCoffe.debug.xcconfig */,
+				9B4420A837B7E1272A62BFA8 /* Pods-iCoffe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C6156F714A5C37CFEFEFD44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87E4282A1FC454B67AA92F8 /* Pods_iCoffe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D0BBD222561AAB90098506B = {
 			isa = PBXGroup;
 			children = (
 				9D0BBD2D2561AAB90098506B /* iCoffe */,
 				9D0BBD2C2561AAB90098506B /* Products */,
+				18320ADB62484B1491DBC4F4 /* Pods */,
+				9C6156F714A5C37CFEFEFD44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +97,18 @@
 			isa = PBXGroup;
 			children = (
 				9D0BBD2E2561AAB90098506B /* AppDelegate.swift */,
+				9D0BBD922561BF910098506B /* Model */,
+				9D0BBD8F2561BF530098506B /* Helpers */,
 				9D0BBD302561AAB90098506B /* SceneDelegate.swift */,
-				9D0BBD322561AAB90098506B /* ContentView.swift */,
+				9D0BBD322561AAB90098506B /* HomeView.swift */,
+				9D367AEF2562A7580045553F /* Firebase Listeners */,
+				9D367AE6256227900045553F /* DrinkRow.swift */,
+				9D367AE925622A440045553F /* DrinkItem.swift */,
+				9D367B0B2562DA9D0045553F /* DrinkDetail.swift */,
 				9D0BBD342561AABC0098506B /* Assets.xcassets */,
 				9D0BBD392561AABC0098506B /* LaunchScreen.storyboard */,
 				9D0BBD3C2561AABC0098506B /* Info.plist */,
+				9D0BBD432561AB8D0098506B /* GoogleService-Info.plist */,
 				9D0BBD362561AABC0098506B /* Preview Content */,
 			);
 			path = iCoffe;
@@ -75,6 +122,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9D0BBD8F2561BF530098506B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9D0BBD892561B59D0098506B /* FirebaseReference.swift */,
+				9D0BBD8C2561B77F0098506B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9D0BBD922561BF910098506B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D0BBD5C2561B1A30098506B /* Drink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D367AEF2562A7580045553F /* Firebase Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				9D367AF22562ADFD0045553F /* DrinkListener.swift */,
+			);
+			path = "Firebase Listeners";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D0BBD3F2561AABC0098506B /* Build configuration list for PBXNativeTarget "iCoffe" */;
 			buildPhases = (
+				7BA5A78CD2BB001B50A03A6F /* [CP] Check Pods Manifest.lock */,
 				9D0BBD272561AAB90098506B /* Sources */,
 				9D0BBD282561AAB90098506B /* Frameworks */,
 				9D0BBD292561AAB90098506B /* Resources */,
+				B249F8888ABB220741F23212 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0BBD3B2561AABC0098506B /* LaunchScreen.storyboard in Resources */,
+				9D0BBD442561AB8D0098506B /* GoogleService-Info.plist in Resources */,
 				9D0BBD382561AABC0098506B /* Preview Assets.xcassets in Resources */,
 				9D0BBD352561AABC0098506B /* Assets.xcassets in Resources */,
 			);
@@ -140,14 +215,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BA5A78CD2BB001B50A03A6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCoffe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B249F8888ABB220741F23212 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffe/Pods-iCoffe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffe/Pods-iCoffe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCoffe/Pods-iCoffe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D0BBD272561AAB90098506B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0BBD8A2561B59D0098506B /* FirebaseReference.swift in Sources */,
+				9D367AEA25622A440045553F /* DrinkItem.swift in Sources */,
 				9D0BBD2F2561AAB90098506B /* AppDelegate.swift in Sources */,
+				9D367AE7256227900045553F /* DrinkRow.swift in Sources */,
+				9D367AF32562ADFD0045553F /* DrinkListener.swift in Sources */,
 				9D0BBD312561AAB90098506B /* SceneDelegate.swift in Sources */,
-				9D0BBD332561AAB90098506B /* ContentView.swift in Sources */,
+				9D0BBD5D2561B1A30098506B /* Drink.swift in Sources */,
+				9D367B0C2562DA9D0045553F /* DrinkDetail.swift in Sources */,
+				9D0BBD332561AAB90098506B /* HomeView.swift in Sources */,
+				9D0BBD8D2561B77F0098506B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +407,7 @@
 		};
 		9D0BBD402561AABC0098506B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF67B23B5F2C34CEC3DE70FE /* Pods-iCoffe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +429,7 @@
 		};
 		9D0BBD412561AABC0098506B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4420A837B7E1272A62BFA8 /* Pods-iCoffe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
